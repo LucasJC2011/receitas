@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 25px;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li a {
+    color: darkkhaki;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav-links li a:hover {
+    color: darkorange;
+}
+
+.nav-links li {
+    margin-right: 25px;
+}
+
+.header {
+    background-image: url('https://img.cybercook.com.br/receitas/832/bolo-de-morango-10.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.header h1 {
+    font-size: 30;
+    margin-bottom: 17px;
+}
+
+.header p {
+    font-size: 21px;
+}
+
+.recipes {
+    padding: 80px 0;
+}
+
+.recipes h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.recipe-card {
+    background-color: rgb(243, 164, 45);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px red;
+    transition: transform 0.3s ease;
+    display: flex;
+    gap: 40px;
+}
+
+.recipe-card:hover {
+    transform: translateX(-3px);
+}
+
+.recipe-card img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.recipe-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.recipe-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: firebrick;
+}
+
+.footer {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 0;
+}
